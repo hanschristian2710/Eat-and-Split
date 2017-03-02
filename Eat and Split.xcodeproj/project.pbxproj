@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */; };
+		90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */; };
+		90D9A1DE1E0D535C009FAAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */; };
+		90D9A1E01E0D535C009FAAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D9A1DF1E0D535C009FAAF8 /* Assets.xcassets */; };
+		90D9A1E31E0D535C009FAAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D9A1E11E0D535C009FAAF8 /* LaunchScreen.storyboard */; };
+		90D9A1EE1E0D535D009FAAF8 /* Eat_and_SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1ED1E0D535D009FAAF8 /* Eat_and_SplitTests.swift */; };
+		90D9A1F91E0D535D009FAAF8 /* Eat_and_SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1F81E0D535D009FAAF8 /* Eat_and_SplitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90D9A1EA1E0D535D009FAAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D9A1CD1E0D535C009FAAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D9A1D41E0D535C009FAAF8;
+			remoteInfo = "Eat and Split";
+		};
+		90D9A1F51E0D535D009FAAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D9A1CD1E0D535C009FAAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D9A1D41E0D535C009FAAF8;
+			remoteInfo = "Eat and Split";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90D9A1D51E0D535C009FAAF8 /* Eat and Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat and Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90D9A1DD1E0D535C009FAAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D9A1DF1E0D535C009FAAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D9A1E21E0D535C009FAAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D9A1E41E0D535C009FAAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D9A1E91E0D535D009FAAF8 /* Eat and SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eat and SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D9A1ED1E0D535D009FAAF8 /* Eat_and_SplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eat_and_SplitTests.swift; sourceTree = "<group>"; };
+		90D9A1EF1E0D535D009FAAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D9A1F41E0D535D009FAAF8 /* Eat and SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eat and SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D9A1F81E0D535D009FAAF8 /* Eat_and_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eat_and_SplitUITests.swift; sourceTree = "<group>"; };
+		90D9A1FA1E0D535D009FAAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E2A9EA1E1632D60079148C /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		90E2A9EC1E1637530079148C /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsViewController.swift; path = "Eat and Split/settingsViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D9A1D21E0D535C009FAAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1E61E0D535D009FAAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1F11E0D535D009FAAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D9A1CC1E0D535C009FAAF8 = {
+			isa = PBXGroup;
+			children = (
+				90E2A9EC1E1637530079148C /* settingsViewController.swift */,
+				90D9A1D71E0D535C009FAAF8 /* Eat and Split */,
+				90D9A1EC1E0D535D009FAAF8 /* Eat and SplitTests */,
+				90D9A1F71E0D535D009FAAF8 /* Eat and SplitUITests */,
+				90D9A1D61E0D535C009FAAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D9A1D61E0D535C009FAAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D9A1D51E0D535C009FAAF8 /* Eat and Split.app */,
+				90D9A1E91E0D535D009FAAF8 /* Eat and SplitTests.xctest */,
+				90D9A1F41E0D535D009FAAF8 /* Eat and SplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D9A1D71E0D535C009FAAF8 /* Eat and Split */ = {
+			isa = PBXGroup;
+			children = (
+				90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */,
+				90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */,
+				90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */,
+				90E2A9EA1E1632D60079148C /* settingsViewController.swift */,
+				90D9A1DF1E0D535C009FAAF8 /* Assets.xcassets */,
+				90D9A1E11E0D535C009FAAF8 /* LaunchScreen.storyboard */,
+				90D9A1E41E0D535C009FAAF8 /* Info.plist */,
+			);
+			path = "Eat and Split";
+			sourceTree = "<group>";
+		};
+		90D9A1EC1E0D535D009FAAF8 /* Eat and SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D9A1ED1E0D535D009FAAF8 /* Eat_and_SplitTests.swift */,
+				90D9A1EF1E0D535D009FAAF8 /* Info.plist */,
+			);
+			path = "Eat and SplitTests";
+			sourceTree = "<group>";
+		};
+		90D9A1F71E0D535D009FAAF8 /* Eat and SplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90D9A1F81E0D535D009FAAF8 /* Eat_and_SplitUITests.swift */,
+				90D9A1FA1E0D535D009FAAF8 /* Info.plist */,
+			);
+			path = "Eat and SplitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D9A1D41E0D535C009FAAF8 /* Eat and Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D9A1FD1E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and Split" */;
+			buildPhases = (
+				90D9A1D11E0D535C009FAAF8 /* Sources */,
+				90D9A1D21E0D535C009FAAF8 /* Frameworks */,
+				90D9A1D31E0D535C009FAAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eat and Split";
+			productName = "Eat and Split";
+			productReference = 90D9A1D51E0D535C009FAAF8 /* Eat and Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D9A1E81E0D535D009FAAF8 /* Eat and SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D9A2001E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and SplitTests" */;
+			buildPhases = (
+				90D9A1E51E0D535D009FAAF8 /* Sources */,
+				90D9A1E61E0D535D009FAAF8 /* Frameworks */,
+				90D9A1E71E0D535D009FAAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D9A1EB1E0D535D009FAAF8 /* PBXTargetDependency */,
+			);
+			name = "Eat and SplitTests";
+			productName = "Eat and SplitTests";
+			productReference = 90D9A1E91E0D535D009FAAF8 /* Eat and SplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90D9A1F31E0D535D009FAAF8 /* Eat and SplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D9A2031E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and SplitUITests" */;
+			buildPhases = (
+				90D9A1F01E0D535D009FAAF8 /* Sources */,
+				90D9A1F11E0D535D009FAAF8 /* Frameworks */,
+				90D9A1F21E0D535D009FAAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D9A1F61E0D535D009FAAF8 /* PBXTargetDependency */,
+			);
+			name = "Eat and SplitUITests";
+			productName = "Eat and SplitUITests";
+			productReference = 90D9A1F41E0D535D009FAAF8 /* Eat and SplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D9A1CD1E0D535C009FAAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CHR27;
+				TargetAttributes = {
+					90D9A1D41E0D535C009FAAF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTAWGCMX37;
+						ProvisioningStyle = Automatic;
+					};
+					90D9A1E81E0D535D009FAAF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTAWGCMX37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90D9A1D41E0D535C009FAAF8;
+					};
+					90D9A1F31E0D535D009FAAF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTAWGCMX37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90D9A1D41E0D535C009FAAF8;
+					};
+				};
+			};
+			buildConfigurationList = 90D9A1D01E0D535C009FAAF8 /* Build configuration list for PBXProject "Eat and Split" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D9A1CC1E0D535C009FAAF8;
+			productRefGroup = 90D9A1D61E0D535C009FAAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D9A1D41E0D535C009FAAF8 /* Eat and Split */,
+				90D9A1E81E0D535D009FAAF8 /* Eat and SplitTests */,
+				90D9A1F31E0D535D009FAAF8 /* Eat and SplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D9A1D31E0D535C009FAAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D9A1E31E0D535C009FAAF8 /* LaunchScreen.storyboard in Resources */,
+				90D9A1E01E0D535C009FAAF8 /* Assets.xcassets in Resources */,
+				90D9A1DE1E0D535C009FAAF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1E71E0D535D009FAAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1F21E0D535D009FAAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D9A1D11E0D535C009FAAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */,
+				90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1E51E0D535D009FAAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D9A1EE1E0D535D009FAAF8 /* Eat_and_SplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9A1F01E0D535D009FAAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D9A1F91E0D535D009FAAF8 /* Eat_and_SplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D9A1EB1E0D535D009FAAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D9A1D41E0D535C009FAAF8 /* Eat and Split */;
+			targetProxy = 90D9A1EA1E0D535D009FAAF8 /* PBXContainerItemProxy */;
+		};
+		90D9A1F61E0D535D009FAAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D9A1D41E0D535C009FAAF8 /* Eat and Split */;
+			targetProxy = 90D9A1F51E0D535D009FAAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D9A1DD1E0D535C009FAAF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D9A1E11E0D535C009FAAF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D9A1E21E0D535C009FAAF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D9A1FB1E0D535D009FAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90D9A1FC1E0D535D009FAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D9A1FE1E0D535D009FAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and Split/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90D9A1FF1E0D535D009FAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and Split/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90D9A2011E0D535D009FAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and SplitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eat and Split.app/Eat and Split";
+			};
+			name = Debug;
+		};
+		90D9A2021E0D535D009FAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and SplitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eat and Split.app/Eat and Split";
+			};
+			name = Release;
+		};
+		90D9A2041E0D535D009FAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and SplitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eat and Split";
+			};
+			name = Debug;
+		};
+		90D9A2051E0D535D009FAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QTAWGCMX37;
+				INFOPLIST_FILE = "Eat and SplitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eat and Split";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D9A1D01E0D535C009FAAF8 /* Build configuration list for PBXProject "Eat and Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D9A1FB1E0D535D009FAAF8 /* Debug */,
+				90D9A1FC1E0D535D009FAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D9A1FD1E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D9A1FE1E0D535D009FAAF8 /* Debug */,
+				90D9A1FF1E0D535D009FAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D9A2001E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D9A2011E0D535D009FAAF8 /* Debug */,
+				90D9A2021E0D535D009FAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D9A2031E0D535D009FAAF8 /* Build configuration list for PBXNativeTarget "Eat and SplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D9A2041E0D535D009FAAF8 /* Debug */,
+				90D9A2051E0D535D009FAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D9A1CD1E0D535C009FAAF8 /* Project object */;
+}
