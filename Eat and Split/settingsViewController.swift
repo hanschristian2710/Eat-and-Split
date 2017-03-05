@@ -25,7 +25,13 @@ class settingsViewController: UIViewController {
     
     // ACTION
     
-
+    // Tap to review
+    @IBAction func tapToReview(_ sender: Any) {
+        // let appStore = "https://itunes.apple.com/app/id\(appleID)?action=write-review"
+        let appStore = "https://www.apple.com/itunes/"
+        UIApplication.shared.open(URL(string: appStore)!, options: [:],completionHandler: nil)
+    }
+   
     /*
     // MARK: - Navigation
 

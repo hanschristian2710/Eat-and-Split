@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90570FF21E6CC0640067151A /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90570FF11E6CC0640067151A /* settingsViewController.swift */; };
+		90ACD9A21E6CCFBD005502BF /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */; };
 		90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */; };
 		90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */; };
 		90D9A1DE1E0D535C009FAAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		90570FF11E6CC0640067151A /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsViewController.swift; path = ../../../../settingsViewController.swift; sourceTree = "<group>"; };
+		90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		90D9A1D51E0D535C009FAAF8 /* Eat and Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat and Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,6 @@
 		90D9A1F41E0D535D009FAAF8 /* Eat and SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eat and SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9A1F81E0D535D009FAAF8 /* Eat_and_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eat_and_SplitUITests.swift; sourceTree = "<group>"; };
 		90D9A1FA1E0D535D009FAAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E2A9EC1E1637530079148C /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsViewController.swift; path = "Eat and Split/settingsViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +79,6 @@
 		90D9A1CC1E0D535C009FAAF8 = {
 			isa = PBXGroup;
 			children = (
-				90E2A9EC1E1637530079148C /* settingsViewController.swift */,
 				90D9A1D71E0D535C009FAAF8 /* Eat and Split */,
 				90D9A1EC1E0D535D009FAAF8 /* Eat and SplitTests */,
 				90D9A1F71E0D535D009FAAF8 /* Eat and SplitUITests */,
@@ -101,7 +99,7 @@
 		90D9A1D71E0D535C009FAAF8 /* Eat and Split */ = {
 			isa = PBXGroup;
 			children = (
-				90570FF11E6CC0640067151A /* settingsViewController.swift */,
+				90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */,
 				90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */,
 				90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */,
 				90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */,
@@ -269,7 +267,7 @@
 			files = (
 				90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */,
 				90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */,
-				90570FF21E6CC0640067151A /* settingsViewController.swift in Sources */,
+				90ACD9A21E6CCFBD005502BF /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QTAWGCMX37;
 				INFOPLIST_FILE = "Eat and Split/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QTAWGCMX37;
 				INFOPLIST_FILE = "Eat and Split/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
