@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Eat and Split
 //
-//  Created by Hans Christian on 07/23/16.
+//  Created by Hans Christian on 08/17/16.
 //  Copyright © 2016 CHR27. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // Initialize variables from UI
+    // Initialize outlets and variables from UI
     @IBOutlet weak var eachAmount: UILabel!
     @IBOutlet weak var tipPercentage: UISegmentedControl!
     
@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // ACTIONS
     
     // Dismiss Keyboard when tapped at any of the screen area
     @IBAction func dismissKeyboard(_ sender: AnyObject) {

@@ -2,13 +2,15 @@
 //  settingsViewController.swift
 //  Eat and Split
 //
-//  Created by Hans Christian on 12/30/16.
+//  Created by Hans Christian on 08/17/16.
 //  Copyright © 2016 CHR27. All rights reserved.
 //
 
 import UIKit
 
 class settingsViewController: UIViewController {
+    
+    // Outlets initialization
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,8 @@ class settingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // ACTION
     
 
     /*
