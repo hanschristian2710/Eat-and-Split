@@ -9,3 +9,4 @@ Here are some simple video overview:
 <img src='http://i.imgur.com/YSyNw3u.gif' title='Eat and Split' width='' alt='Video Walkthrough' />
 
 User just simply enter the total bills, tax, desired tips, and the number of party. 
+
