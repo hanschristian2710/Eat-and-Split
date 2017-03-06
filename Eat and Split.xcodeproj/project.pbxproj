@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90ACD9A21E6CCFBD005502BF /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */; };
+		90ACD9A41E6CDBA8005502BF /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD9A31E6CDBA8005502BF /* WelcomeScreen.swift */; };
 		90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */; };
 		90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */; };
 		90D9A1DE1E0D535C009FAAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		90ACD9A31E6CDBA8005502BF /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		90D9A1D51E0D535C009FAAF8 /* Eat and Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat and Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				90ACD9A11E6CCFBD005502BF /* settingsViewController.swift */,
 				90D9A1D81E0D535C009FAAF8 /* AppDelegate.swift */,
 				90D9A1DA1E0D535C009FAAF8 /* ViewController.swift */,
+				90ACD9A31E6CDBA8005502BF /* WelcomeScreen.swift */,
 				90D9A1DC1E0D535C009FAAF8 /* Main.storyboard */,
 				90D9A1DF1E0D535C009FAAF8 /* Assets.xcassets */,
 				90D9A1E11E0D535C009FAAF8 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				90D9A1DB1E0D535C009FAAF8 /* ViewController.swift in Sources */,
 				90D9A1D91E0D535C009FAAF8 /* AppDelegate.swift in Sources */,
+				90ACD9A41E6CDBA8005502BF /* WelcomeScreen.swift in Sources */,
 				90ACD9A21E6CCFBD005502BF /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,8 +424,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QTAWGCMX37;
 				INFOPLIST_FILE = "Eat and Split/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-Split";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian2710.Eat-and-Split";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,8 +439,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QTAWGCMX37;
 				INFOPLIST_FILE = "Eat and Split/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian.Eat-and-Split";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanschristian2710.Eat-and-Split";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
